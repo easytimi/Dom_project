@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM project</title>
+    <link rel="stylesheet" href="style10.css">
+    <script src="https://kit.fontawesome.com/321443d274.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="shop"><h1>Shopping Cart</h1></div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+
+        </div>
+    </header>
+    <div class="outer">
+        <div class="container1">
+             
+            <div id="headings">
+             <div class="detem"><h4>Items Detail</h4></div>
+                <div class="measure"><h4>Quantity</h4></div>
+                <div id="item-p"><h4>Item Price</h4></div>
+                <div><h4>Action</h4></div>
+            </div>
+            <div class="goods">
+                <div id="descript1">
+                    <a id="product-1" href="/product/hisense-11kg-wash-6-5kg-spin-twin-tub-washing-machine-wsrb113-5668331">
+                        <picture><source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg"
+                             media="(max-width: 600px)" srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg">
+                             <source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg"
+                              media="(max-width: 799px)" srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg">
+                              <img data-expand="100" data-src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg"
+                               alt="11Kg Wash + 6.5Kg Spin Twin Tub Washing Machine - WSRB113."
+                                class="f5e10_VzEXF lazyloaded " src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/G/I/111309_1647447014.jpg">
+                            </picture></a>
+                            <div>
+                                <h3><a 
+                                    href="/product/hisense-11kg-wash-6-5kg-spin-twin-tub-washing-machine-wsrb113-5668331">11Kg Wash + 6.5Kg Spin Twin Tub Washing Ma...</a>
+                                </h3>
+                                <div class="sold">
+                                  <div>
+                                     <p class="_784e0_1xIh1">Sold by <a href="/merchant/sunnyside-electronics">Sunnyside Electronics</a></p>
+                                     <div class="f06fc_1AzNh"></div>
+                                   </div>
+                                   <div class="heart"><button><i class="fa-solid fa-heart"></i></button></div>
+                                </div>
+                            </div>
+                </div>
+                
+               <div class="quant">
+                   <div id="btnminus1" onclick="minus1()"><button > <i class="fa-solid fa-minus"></i></button></div>
+                   <div class="quant2"><span id="num1-el">1</span></div>
+                   <div id="btnplus1" onclick="add1()"><button><i class="fa-solid fa-plus"></i></button></div>
+                </div>
+                <div class="naira">
+                   <h3 id="wash-el">
+                    <span style="font-family: sans-serif; margin-right: 1px;">₦</span>
+                   141,250
+                   </h3>
+                </div>
+                <div id="btn1" onclick="removemachine()">
+                    <button>Remove item</button>
+                </div>
+        
+            </div>
+            <div  class="goods">
+                <div id="descript2">
+                    <a id="product-2" href="/product/samsung-galaxy-s22-ultra-5g-6-8-256gb-rom-12gb-ram-dual-sim-108mp-5000mah-burgundy-5689028">
+                        <picture><source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg" 
+                            media="(max-width: 600px)" srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg">
+                            <source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg" 
+                            media="(max-width: 799px)" srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg">
+                            <img data-expand="100" data-src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg" 
+                            alt="Galaxy S22 Ultra 5g - 6.8&quot; - 256GB ROM - 12GB RAM - Dual Sim -108mp-5000mAh- Burgundy." class="f5e10_VzEXF lazyloaded "
+                         src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/S/V/52863_1649282226.jpg">
+                        </picture>
+                    </a>
+                         <div>
+                            <h3><a href="/product/samsung-galaxy-s22-ultra-5g-6-8-256gb-rom-12gb-ram-dual-sim-108mp-5000mah-burgundy-5689028">
+                                Galaxy S22 Ultra 5g - 6.8" - 256GB ROM - 1...</a>
+                            </h3>
+                            <div class="sold">
+                                <div>
+                                    <p class="_784e0_1xIh1">Sold by <a href="/merchant/cteck-store">CTeck Store</a>
+                                    </p>
+                                    <div class="f06fc_1AzNh"></div>
+                                </div>
+                                <div class="heart"><button><i class="fa-solid fa-heart"></i></button></i></div>
+
+                            </div>
+                         </div>
+                </div>
+                <div class="quant">
+                    <div id="btnminus2" onclick="minus2()"><button > <i class="fa-solid fa-minus"></i></button></div>
+                    <div class="quant2"><span id="num2-el">1</span></div>
+                    <div id="btnplus2" onclick="add2()"><button><i class="fa-solid fa-plus"></i></button></div>
+                </div>
+                <div class="naira">
+                    <h3 id="phone-el">
+                        <span style="font-family: sans-serif; margin-right: 1px;">₦</span>
+                       750,000
+                    </h3>
+                </div>
+                <div id="btn2" onclick="removephone()"> <button>Remove item</button></div>
+
+            </div>
+            <div class="goods">
+                <div id="descript">
+                    <a id="product" href="/product/hp-laptop-15-dw1279nia-15-6-intel-i-core-o-i5-10210u-8gb-ram-1tb-hdd-5793001">
+                        <picture><source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg"
+                             media="(max-width: 600px)" 
+                            srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_600,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg">
+                            <source data-srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg"
+                             media="(max-width: 799px)" srcset="https://www-konga-com-res.cloudinary.com/image/upload/w_850,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg">
+                             <img data-expand="100" data-src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg" 
+                             alt="Laptop 15-dw1279nia - 15.6&quot; - Intel® Core™ I5-10210u - 8GB RAM - 1TB HDD." class="f5e10_VzEXF lazyloaded "
+                         src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/c_pad,dpr_1.0,f_auto,h_77,q_auto,w_88/media/catalog/product/A/L/181128_1657889680.jpg"></picture></a>
+                   <div>
+                      <h3><a href="/product/hp-laptop-15-dw1279nia-15-6-intel-i-core-o-i5-10210u-8gb-ram-1tb-hdd-5793001">
+                          Laptop 15-dw1279nia - 15.6" - Intel® Core™...</a>
+                       </h3>
+                       <div class="sold">
+                          <div>
+                              <p class="_784e0_1xIh1">Sold by <a href="/merchant/overflow-computer">OverFlow Computer</a></p>
+                              <div class="f06fc_1AzNh"></div>
+                          </div>
+                          <div class="heart"><button><i class="fa-solid fa-heart"></i></button></div>
+                    </div>
+                   </div>                         
+                </div>
+                <div class="quant">
+                    <div id="btnminus" onclick="minus()"><button > <i class="fa-solid fa-minus"></i></button></div>
+                    <div class="quant2"><span id="num-el">1</span></div>
+                    <div id="btnplus" onclick="add()"><button><i class="fa-solid fa-plus"></i></button></div> 
+                </div>
+                <div class="naira">
+                    <h3 id="lap-el">
+                        <span style="font-family: sans-serif; margin-right: 1px;">₦</span>
+                       485,000
+                    </h3>
+                </div>
+                <div id="btn" onclick="removelap()"><button>Remove item</button></div>
+            </div>
+                    
+        </div>
+        <div class="container2">
+            <h4 >Order summary</h4>
+            <h4 id="numb">3 Items</h4>
+            <h4 id="total-el">Total:  ₦ 1,376,250    </h4>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h1>ABOUT  SHOPFLEX</h1>
+            <h3>contact us</h3>
+            <h3>about us</h3>
+            <h3>career</h3>
+        </div>
+        <div>
+            <h1>MORE INFORMATION</h1>
+            <h3>site map</h3>
+            <h3>track my order</h3>
+            <h3>privacy policy</h3>
+        </div>
+        <div>
+            <h1>MAKE MONEY ON SHOPFLEX</h1>
+            <h3>Become a konga affiliate</h3>
+        </div>
+    </footer>
+
+
+    <script src="script10.js"></script>
+    
+</body>
+</html>
